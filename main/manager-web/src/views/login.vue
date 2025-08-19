@@ -73,12 +73,12 @@
             </el-tooltip>
           </div>
 
-          <div style="font-size: 14px;color: #979db1;">
+          <!-- <div style="font-size: 14px;color: #979db1;">
             登录即同意
             <div style="display: inline-block;color: #5778FF;cursor: pointer;">《用户协议》</div>
             和
             <div style="display: inline-block;color: #5778FF;cursor: pointer;">《隐私政策》</div>
-          </div>
+          </div> -->
         </div>
       </el-main>
       <el-footer>

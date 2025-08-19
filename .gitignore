@@ -183,3 +183,5 @@ uploadfile
 !main/manager-mobile/**/env/
 !main/manager-mobile/**/.env*
 !main/manager-mobile/**/*.json
+
+./main/manager-api/src/main/resources/application-dev.yml

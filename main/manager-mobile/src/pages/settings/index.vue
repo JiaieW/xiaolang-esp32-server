@@ -170,10 +170,8 @@ async function clearCache() {
 // 关于我们
 function showAbout() {
   uni.showModal({
-    title: `关于${import.meta.env.VITE_APP_TITLE}`,
-    content: `${import.meta.env.VITE_APP_TITLE}\n\n基于 Vue.js 3 + uni-app 构建的跨平台移动端管理应用，为小智ESP32智能硬件提供设备管理、智能体配置等功能。\n\n© 2025 xiaozhi-esp32-server`,
-    title: `关于小智智控台`,
-    content: `小智智控台\n\n基于 Vue.js 3 + uni-app 构建的跨平台移动端管理应用，为小智智控台ESP32智能硬件提供设备管理、智能体配置等功能。\n\n© 2025 xiaozhi-esp32-server 0.7.5`,
+    title: `关于小浪智控台`,
+    content: `小浪智控台\n\n基于 Vue.js 3 + uni-app 构建的跨平台移动端管理应用，为小浪智控台ESP32智能硬件提供设备管理、智能体配置等功能。\n\n© ${new Date().getFullYear()} xiaolang beta 1.0.0`,
     showCancel: false,
     confirmText: '确定',
   })
@@ -201,7 +199,6 @@ onMounted(async () => {
           </text>
         </view>
 
-        <view class="border border-[#eeeeee] rounded-[24rpx] bg-[#fbfbfb] p-[32rpx]"
         <view class="border border-[#eeeeee] rounded-[24rpx] bg-[#fbfbfb] p-[32rpx] overflow-hidden"
           style="box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.06);">
           <view class="mb-[24rpx]">
